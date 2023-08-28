@@ -198,3 +198,34 @@ button {
   object-fit: cover;
   object-position: center;
 }
+
+
+
+/* -------------------------------- */
+
+@media (max-width:480px){
+  .m-card{
+    margin-top: 80px;
+    height: auto;
+    margin-bottom: 80px;
+  }
+  .s-view{
+    width: 70%;
+   margin:40% 15%;
+  }
+  .stories{
+    width: 90%;
+    margin:40px 0px;
+  }
+}
+@media (min-width:480px) and (max-width:850px){
+  .m-card{
+    margin-top: 80px;
+    height: auto;
+    margin-bottom: 80px;
+  }
+  .s-view{
+    width: 70%;
+   margin:40% 15%;
+  }
+}
