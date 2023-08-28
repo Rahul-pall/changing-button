@@ -1,6 +1,6 @@
 let arr = [
 {
-  dp:"p1.jpg",story:""
+  dp:"p1.jpg",story:"ppk.jpg"
 },
 {
   dp:"https://images.unsplash.com/photo-1604514628550-37477afdf4e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1854&q=80",story:"https://images.unsplash.com/photo-1514315384763-ba401779410f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -52,7 +52,7 @@ stories.innerHTML=clutter;
 
 stories.addEventListener("click",function(dets){
               document.querySelector(".s-view").style.display="block";
-              document.querySelector(".s-view").style.background=`url(${arr[dets.target.id].story})`
+              document.querySelector(".s-view").style.background=`url(${arr[dets.target.id].story})center center/cover`
               document.querySelector(".m-card").style.filter="blur(100px)"
               
               // document.body.style.filter="blur(100px)"
